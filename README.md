@@ -164,41 +164,49 @@ Passe a notação O-grande e o-pequeno as funções abaixo:
 #### A F(n) = n + 1 
 
 O (n)
+
 o(n logn)
 
 #### B F(n) = 8 
 
 O (1)
+
 o (1)
 
 #### C F(n) = 2n 2 − 1 
 
 O(n2)
+
 o(2^n)
 
 #### D F(n) = nlogn
 
 O (n)
+
 o(n^2)
 
 #### E F(n) = 3n! + 2n
 
 O (n!)
+
 o(n!) 
 
 #### F F(n) = 3n 3 + 2n 2 + 4n + 6 
 
 O (n3)
+
 o(n!)
 
 #### G F(n) = 5n + 11 
 
 O (n)
+
 o (n logn)
 
 #### H F(n) = 3logn 
 
 O (n)
+
 o(n2)
 
 #### 25 Problema 
