@@ -30,7 +30,6 @@ Dado dois algoritmos A e B com as complexidades de tempo respectivamente f1 e f2
 
 R: O tempo de execução e o número de iterações. 
 
-
 #### 7 Problema 
 Em uma função de complexidade, o que representa o termo n? 
 
@@ -106,11 +105,9 @@ funcao somamatriz(v){
 retorna s
 }
 
-
 #### 14 Problema 
 Desenvolva o pseudocódigo do algoritmo BUSCA MATRIZ, que identifica posição x e y de um elemento em uma matriz. O algoritmo recebe a matriz M e o valor V e tem como saída a posição x e y . Identifique a sua função de complexidade de tempo. 
 R:
-
 
 #### 15 Problema 
 O que é análise assintótica? Qual é o seu objetivo? 
@@ -121,7 +118,6 @@ R: É uma estimativa de tempo que o algoritmo leva para calcular. Objetivo de co
 Qual é o processo da análise assintótica? Crie um exemplo. 
 
 R: f(n) = 4n4 + 2n2 + 10n + 5 -> Identificar o componente de maior ordem 4n4  -> Ignorar os coeficiente -> n4
-
 
 #### 17 Problema 
 O que é a notação assintótica? 
@@ -140,8 +136,11 @@ R: Sejam f e g funções f,g: N → R+. Digamos que f(n) = O(g(n)) se existem in
 
 #### 20 Problema 
 Crie um gráfico explicando a notação O-grande. Utilize f(n) = 2n + 4. Qual é um valor possível para n0? 
+
 R: n0 = 1 
 constante = 6
+
+![O-grande](https://user-images.githubusercontent.com/40281699/56991682-a3c9d980-6b6e-11e9-8672-6e290ec6f30e.PNG)
 
 #### 21 Problema 
 O que é a notação o-pequeno ou Little-Oh? 
