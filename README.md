@@ -155,7 +155,8 @@ R: Sejam f e g funções f,g: N → R+. Digamos que f(n) = o(g(n)) se Em outras 
 
 #### 23 Problema 
 Crie um gráfico explicando a notação o-pequeno. 
-R:
+
+![O-pequeno](https://user-images.githubusercontent.com/40281699/56991557-56e60300-6b6e-11e9-82d5-7701d8e1a29b.PNG)
 
 
 #### 24 Problema 
