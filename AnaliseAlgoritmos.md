@@ -107,7 +107,21 @@ retorna s
 
 #### 14 Problema 
 Desenvolva o pseudocódigo do algoritmo BUSCA MATRIZ, que identifica posição x e y de um elemento em uma matriz. O algoritmo recebe a matriz M e o valor V e tem como saída a posição x e y . Identifique a sua função de complexidade de tempo. 
-R:
+
+funcao buscamatriz (m,v){
+para i = 1 até comprimento(m){
+	para j = 1 até comprimento(v){
+		se m[i][j] = v{
+			retorna m[i][j]
+		}
+	j += 1
+	}
+i += 1
+}
+retorna m
+}
+
+
 
 #### 15 Problema 
 O que é análise assintótica? Qual é o seu objetivo? 
