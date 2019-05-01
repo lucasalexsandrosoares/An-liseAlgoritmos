@@ -63,15 +63,18 @@ retorna s
 ``` 
 
 f(n) = c1* 1 + c2* 1 
+
 f(n) = 1 * 1 + 1 * 1 
+
 f(n) = 1 + 1 
+
 f(n) = 2
 
 
 #### 11 Problema 
 Desenvolva o pseudocódigo do algoritmo SOMA VETOR, que realiza a soma de todos os elementos de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo. 
 
-```python
+```
 funcao somavetor(v){
 para i em alcance(v){
 s += v[i]	
@@ -81,8 +84,11 @@ retorna s
 ```
 
 f(n) = c1* 1 + c2* n + c3* 1 
+
 f(n) = 1 * 1 + 1 * n + 1 * 1 
+
 f(n) = 1 + n + 1 
+
 f(n) = n + 2
 
 
@@ -90,7 +96,7 @@ f(n) = n + 2
 #### 12 Problema 
 Desenvolva o pseudocódigo do algoritmo CONTAGEM ÍMPARES, que realiza a contagem de números ímpares de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo. 
 
-```python
+```
 funcao contaimpares(v){
 para i em alcance(v){
 se v[i] % 2  == 0{
@@ -104,7 +110,7 @@ retorna c
 #### 13 Problema 
 Desenvolva o pseudocódigo do algoritmo SOMA MATRIZ, que realiza a soma de todos os elementos de uma matriz. O algoritmo recebe a matriz M e tem como saída o resultado. Identifique a sua função de complexidade de tempo. 
 
-```python
+```
 funcao somamatriz(v){
 	para i em alcance(v){
 		s += v[i]
@@ -116,7 +122,7 @@ retorna s
 #### 14 Problema 
 Desenvolva o pseudocódigo do algoritmo BUSCA MATRIZ, que identifica posição x e y de um elemento em uma matriz. O algoritmo recebe a matriz M e o valor V e tem como saída a posição x e y . Identifique a sua função de complexidade de tempo. 
 
-```python
+```
 funcao buscamatriz (m,v){
 para i = 1 até comprimento(m){
 	para j = 1 até comprimento(v){
@@ -159,7 +165,8 @@ R: Sejam f e g funções f,g: N → R+. Digamos que f(n) = O(g(n)) se existem in
 #### 20 Problema 
 Crie um gráfico explicando a notação O-grande. Utilize f(n) = 2n + 4. Qual é um valor possível para n0? 
 
-R: n0 = 1 
+n0 = 1 
+
 constante = 6
 
 ![O-grande](https://user-images.githubusercontent.com/40281699/56991682-a3c9d980-6b6e-11e9-8672-6e290ec6f30e.PNG)
