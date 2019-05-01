@@ -53,12 +53,14 @@ Qual é o valor de uma operação primitiva de um algoritmo?
 R: Se atribui o valor 1.
 
 #### 10 Problema 
-Desenvolva o pseudocódigo do algoritmo SOMA, que realiza a soma de dois números inteiros recebidos por parâmetro e tem como sa´ıda a resultado da operação. Identifique a sua função de complexidade de tempo. 
+Desenvolva o pseudocódigo do algoritmo SOMA, que realiza a soma de dois números inteiros recebidos por parâmetro e tem como saída a resultado da operação. Identifique a sua função de complexidade de tempo. 
 
+```python
 funcao soma (a, b){
 	s = a + b
 retorna s 
 }
+``` 
 
 f(n) = c1* 1 + c2* 1 
 f(n) = 1 * 1 + 1 * 1 
@@ -69,12 +71,14 @@ f(n) = 2
 #### 11 Problema 
 Desenvolva o pseudocódigo do algoritmo SOMA VETOR, que realiza a soma de todos os elementos de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo. 
 
+```python
 funcao somavetor(v){
 para i em alcance(v){
 s += v[i]	
 }
 retorna s
 } 
+```
 
 f(n) = c1* 1 + c2* n + c3* 1 
 f(n) = 1 * 1 + 1 * n + 1 * 1 
@@ -86,6 +90,7 @@ f(n) = n + 2
 #### 12 Problema 
 Desenvolva o pseudocódigo do algoritmo CONTAGEM ÍMPARES, que realiza a contagem de números ímpares de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo. 
 
+```python
 funcao contaimpares(v){
 para i em alcance(v){
 se v[i] % 2  == 0{
@@ -94,20 +99,24 @@ se v[i] % 2  == 0{
 	}
 retorna c
 }
+```
 
 #### 13 Problema 
 Desenvolva o pseudocódigo do algoritmo SOMA MATRIZ, que realiza a soma de todos os elementos de uma matriz. O algoritmo recebe a matriz M e tem como saída o resultado. Identifique a sua função de complexidade de tempo. 
 
+```python
 funcao somamatriz(v){
 	para i em alcance(v){
 		s += v[i]
 	}
 retorna s
 }
+```
 
 #### 14 Problema 
 Desenvolva o pseudocódigo do algoritmo BUSCA MATRIZ, que identifica posição x e y de um elemento em uma matriz. O algoritmo recebe a matriz M e o valor V e tem como saída a posição x e y . Identifique a sua função de complexidade de tempo. 
 
+```python
 funcao buscamatriz (m,v){
 para i = 1 até comprimento(m){
 	para j = 1 até comprimento(v){
@@ -120,8 +129,7 @@ i += 1
 }
 retorna m
 }
-
-
+```
 
 #### 15 Problema 
 O que é análise assintótica? Qual é o seu objetivo? 
