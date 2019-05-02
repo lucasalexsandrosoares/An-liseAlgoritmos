@@ -104,11 +104,19 @@ Desenvolva o pseudocódigo do algoritmo SOMA MATRIZ, que realiza a soma de todos
 ```
 funcao somamatriz(v){
 	para i em alcance(v){
-		s += v[i]
-	}
+		para j em alcance(i) {
+			s += v[i][j]
+			j += 1		
+		}
+	i += 1
+	}	
 retorna s
 }
 ```
+f(n) =  n + n*n + n*n + n*n + n + 1
+
+f(n) =  3n² + 2n + 1
+
 
 #### 14 Problema 
 Desenvolva o pseudocódigo do algoritmo BUSCA MATRIZ, que identifica posição x e y de um elemento em uma matriz. O algoritmo recebe a matriz M e o valor V e tem como saída a posição x e y . Identifique a sua função de complexidade de tempo. 
@@ -235,20 +243,22 @@ o(n)
 #### 25 Problema 
 Identifique o O-Grande dos algoritmos desenvolvidos nos Problemas 10 até 14.
 
-10) f(n) = 2  
+####10) f(n) = 2  
 
 O(1)
 
-11) f(n) =  2n + 1 
+####11) f(n) =  2n + 1 
 
 O(n)
 
-12) f(n) =  3n + 1 
+####12) f(n) =  3n + 1 
 
 O(n)
 
-13)
+####13)f(n) =  3n² + 2n + 1 
 
-14) f(n) = 3n² + 2n + 2 
+O(n2)
+
+####14) f(n) = 3n² + 2n + 2 
 
 O(n2)
