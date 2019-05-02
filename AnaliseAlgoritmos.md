@@ -62,12 +62,6 @@ retorna s
 }
 ``` 
 
-f(n) = c1* 1 + c2* 1 
-
-f(n) = 1 * 1 + 1 * 1 
-
-f(n) = 1 + 1 
-
 f(n) = 2
 
 
@@ -83,15 +77,9 @@ retorna s
 } 
 ```
 
-f(n) = c1* 1 + c2* n + c3* 1 
+f(n) = n + n + 1
 
-f(n) = 1 * 1 + 1 * n + 1 * 1 
-
-f(n) = 1 + n + 1 
-
-f(n) = n + 2
-
-
+f(n) =  2n + 1
 
 #### 12 Problema 
 Desenvolva o pseudocódigo do algoritmo CONTAGEM ÍMPARES, que realiza a contagem de números ímpares de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo. 
@@ -106,6 +94,9 @@ se v[i] % 2  == 0{
 retorna c
 }
 ```
+f(n) =  n + n + n + 1
+
+f(n) =  3n + 1
 
 #### 13 Problema 
 Desenvolva o pseudocódigo do algoritmo SOMA MATRIZ, que realiza a soma de todos os elementos de uma matriz. O algoritmo recebe a matriz M e tem como saída o resultado. Identifique a sua função de complexidade de tempo. 
@@ -136,6 +127,9 @@ i += 1
 retorna m
 }
 ```
+f(n) = n + n*n + n*n+ n*n +n + 1 + 1
+
+f(n) = 3n² + 2n + 2
 
 #### 15 Problema 
 O que é análise assintótica? Qual é o seu objetivo? 
@@ -240,3 +234,21 @@ o(n)
 
 #### 25 Problema 
 Identifique o O-Grande dos algoritmos desenvolvidos nos Problemas 10 até 14.
+
+10) f(n) = 2  
+
+O(1)
+
+11) f(n) =  2n + 1 
+
+O(n)
+
+12) f(n) =  3n + 1 
+
+O(n)
+
+13)
+
+14) f(n) = 3n² + 2n + 2 
+
+O(n2)
