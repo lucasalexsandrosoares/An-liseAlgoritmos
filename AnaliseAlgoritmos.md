@@ -243,22 +243,22 @@ o(n)
 #### 25 Problema 
 Identifique o O-Grande dos algoritmos desenvolvidos nos Problemas 10 até 14.
 
-####10) f(n) = 2  
+#### 10) f(n) = 2  
 
 O(1)
 
-####11) f(n) =  2n + 1 
+#### 11) f(n) =  2n + 1 
 
 O(n)
 
-####12) f(n) =  3n + 1 
+#### 12) f(n) =  3n + 1 
 
 O(n)
 
-####13)f(n) =  3n² + 2n + 1 
+#### 13)f(n) =  3n² + 2n + 1 
 
 O(n2)
 
-####14) f(n) = 3n² + 2n + 2 
+#### 14) f(n) = 3n² + 2n + 2 
 
 O(n2)
