@@ -218,7 +218,7 @@ o(n^2)
 
 O (n!)
 
-o(n!) 
+o(n.n!) 
 
 #### F F(n) = 3n 3 + 2n 2 + 4n + 6 
 
@@ -236,7 +236,7 @@ o (n logn)
 
 O (n)
 
-o(n2)
+o(n)
 
 #### 25 Problema 
 Identifique o O-Grande dos algoritmos desenvolvidos nos Problemas 10 até 14.
